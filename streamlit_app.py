@@ -48,7 +48,7 @@ st.map(map_data, size = 'students')
 st.line_chart(df, x='급식일자',y=['칼로리정보(Kcal)','탄수화물(g)'])
 
 #4-3. 막대 그래프 만들기
-st.bar_chart(df, x = '요일', y = "칼로리정보(Kcal)", color = '급식일자' , horizontal = True) #horizontal: 수직수평 설정
+st.bar_chart(df, x = '요일', y = "칼로리정보(Kcal)", color = '급식일자' , horizontal = True) #horizontal: 
 
 
 
